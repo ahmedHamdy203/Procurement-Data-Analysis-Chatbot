@@ -1,0 +1,192 @@
+2024-11-20 01:01:55,358 - RAGPipeline - INFO - Initializing RAG pipeline...
+2024-11-20 01:01:55,359 - RAGPipeline - INFO - Setting up embeddings...
+2024-11-20 01:02:16,367 - RAGPipeline - INFO - Setting up vector store...
+2024-11-20 01:02:17,421 - RAGPipeline - INFO - Setting up LLM...
+2024-11-20 01:03:12,664 - RAGPipeline - INFO - RAG pipeline initialized successfully!
+2024-11-20 01:03:12,665 - RAGPipeline - INFO - 
+Processing query: Which department spent the most on computer equipment?
+2024-11-20 01:03:16,088 - RAGPipeline - INFO - 
+Retrieved Document 1:
+2024-11-20 01:03:16,089 - RAGPipeline - INFO - Content: Purchase Order: 4500219275
+Department: Corrections and Rehabilitation, Department of
+Supplier: Arlene Mickley Inc. dba Educ Strategies
+Creation Date: 2014-02-12
+Purchase Date: 2014-02-12
+Fiscal Year: 2014
+Item: DISCOVERING COMPUTERS 2011  9781439079263
+Description: DISCOVERING COMPUTERS 2011  9781439079263
+Quantity: 10.0
+Unit Price: $225.44
+Total Price: $2254.40
+Acquisition Type: NON-IT Goods
+Acquisition Method: Formal Competitive
+Classification Codes: 55101509
+2024-11-20 01:03:16,090 - RAGPipeline - INFO - Metadata: {'acquisition_type': 'NON-IT Goods', 'creation_date': '2014-02-12T00:00:00', 'department': 'Corrections and Rehabilitation, Department of', 'fiscal_year': '2014', 'purchase_order': '4500219275', 'supplier': 'Arlene Mickley Inc. dba Educ Strategies', 'total_price': 2254.4}
+2024-11-20 01:03:16,111 - RAGPipeline - INFO - 
+Retrieved Document 2:
+2024-11-20 01:03:16,112 - RAGPipeline - INFO - Content: Purchase Order: X2252
+Department: Justice, Department of
+Supplier: Matrix Ingenuity
+Creation Date: 2014-05-13
+Purchase Date: 2014-05-13
+Fiscal Year: 2014
+Item: adjustable computer tables
+Description: Installation of 23 computer tables and 1 desk (includes unloading and
+inspection, room placement/se-up, removal of debris, work crew supervision)
+Quantity: 1.0
+Unit Price: $2167.00
+Total Price: $2167.00
+Acquisition Type: NON-IT Goods
+Acquisition Method: Informal Competitive
+Classification Codes: 26121542
+26121641
+72151508
+72153606
+2024-11-20 01:03:16,144 - RAGPipeline - INFO - Metadata: {'acquisition_type': 'NON-IT Goods', 'creation_date': '2014-05-13T00:00:00', 'department': 'Justice, Department of', 'fiscal_year': '2014', 'purchase_order': 'X2252', 'supplier': 'Matrix Ingenuity', 'total_price': 2167.0}
+2024-11-20 01:03:16,145 - RAGPipeline - INFO - Generating answer...
+2024-11-20 01:05:02,913 - RAGPipeline - INFO - Answer: 72153606
+2024-11-20 01:05:02,913 - RAGPipeline - INFO - Processing time: 110.25 seconds
+2024-11-20 01:05:02,956 - RAGPipeline - INFO - 
+Processing query: What are the most common items purchased by the Consumer Affairs department?
+2024-11-20 01:05:04,425 - RAGPipeline - INFO - 
+Retrieved Document 1:
+2024-11-20 01:05:04,516 - RAGPipeline - INFO - Content: Purchase Order: GP130064
+Department: Child Support Services, Department of
+Supplier: American Commodities, AWOB
+Creation Date: 2013-10-17
+Purchase Date: 2013-10-16
+Fiscal Year: 2014
+Item: UniversalÂ®:Top-Load Poly Sheet Protectors, Standard, Letter, Clear, 100/Box
+Description: UniversalÂ®:Top-Load Poly Sheet Protectors, Standard, Letter, Clear, 100/Box
+Quantity: 1.0
+Unit Price: $7.79
+Total Price: $7.79
+Acquisition Type: NON-IT Goods
+Acquisition Method: Fair and Reasonable
+Supplier Qualifications: CA-MB CA-SB
+Classification Codes: 14111514
+43232108
+44101805
+44111905
+44121707
+44122002
+44122003
+44122013
+44122017
+60101702
+60111102
+2024-11-20 01:05:04,518 - RAGPipeline - INFO - Metadata: {'acquisition_type': 'NON-IT Goods', 'creation_date': '2013-10-17T00:00:00', 'department': 'Child Support Services, Department of', 'fiscal_year': '2014', 'purchase_order': 'GP130064', 'supplier': 'American Commodities, AWOB', 'total_price': 7.79}
+2024-11-20 01:05:04,518 - RAGPipeline - INFO - 
+Retrieved Document 2:
+2024-11-20 01:05:04,519 - RAGPipeline - INFO - Content: Purchase Order: 11-G0628
+Department: Pesticide Regulation, Department of
+Supplier: Burkett's Office Supplies
+Creation Date: 2012-07-06
+Purchase Date: 2012-06-11
+Fiscal Year: 2013
+Item: Office Supplies
+Description: plastic tabs
+sanitizer
+index 3 ring
+tpae
+labels
+cassette
+flag
+post it
+notebook
+folder
+binder pocket
+hideaway cord
+easel pad
+hanging pocket
+Quantity: 1.0
+Unit Price: $1021.92
+Total Price: $1021.92
+Acquisition Type: NON-IT Goods
+Acquisition Method: Informal Competitive
+Supplier Qualifications: CA-SB CA-SBE
+Classification Codes: 14111514
+14111530
+26121636
+31201503
+44111903
+44122001
+55121616
+44122017
+44122018
+44122019
+53131626
+55121612
+44122011
+2024-11-20 01:05:04,845 - RAGPipeline - INFO - Metadata: {'acquisition_type': 'NON-IT Goods', 'creation_date': '2012-07-06T00:00:00', 'department': 'Pesticide Regulation, Department of', 'fiscal_year': '2013', 'purchase_order': '11-G0628', 'supplier': "Burkett's Office Supplies", 'total_price': 1021.92}
+2024-11-20 01:05:04,845 - RAGPipeline - INFO - Generating answer...
+2024-11-20 01:05:39,827 - RAGPipeline - INFO - Answer: 
+        * PLASTIC TABS   :     Purchased with OND: GP130057
+        * SANITIZER      :     Purchased with OND: GP120801
+        * INDEX 3 RING   :     Purchased with OND: GP110892
+        * TPASCIER       :     Purchased with OND: GP120922
+        * SPLIT POCKETS  :     Purchased with OND: GP130065
+        * HIDING POCKETS :     Purchased with OND: GP120874
+        * EASEL PAD      :     Purchased with OND: GP120924
+        * CASSETTE       :     Purchased with OND: GP120835
+        * FOLDER         :     Purchased with OND: GP120876
+        * BINDINGER POCKET:     Purchased with OND: GP120918
+
+2024-11-20 01:05:39,828 - RAGPipeline - INFO - Processing time: 36.87 seconds
+2024-11-20 01:05:39,833 - RAGPipeline - INFO - 
+Processing query: Can you provide an overview of the top spending departments and the types of items they typically purchase?
+2024-11-20 01:05:40,084 - RAGPipeline - INFO - 
+Retrieved Document 1:
+2024-11-20 01:05:40,085 - RAGPipeline - INFO - Content: Purchase Order: GP130089
+Department: Child Support Services, Department of
+Supplier: American Commodities, AWOB
+Creation Date: 2014-07-10
+Purchase Date: 2013-11-19
+Fiscal Year: 2015
+Item: AT-A-GLANCEÂ®:QuickNotes Recycled Monthly Planner, 6-7/8 x 8-3/4, Black, 2014
+Description: AT-A-GLANCEÂ®:QuickNotes Recycled Monthly Planner, 6-7/8 x 8-3/4,
+Black, 2014
+Quantity: 1.0
+Unit Price: $13.51
+Total Price: $13.51
+Acquisition Type: NON-IT Goods
+Acquisition Method: Informal Competitive
+Supplier Qualifications: CA-MB CA-SB
+Classification Codes: 27113301
+44102002
+44102801
+44102910
+44111521
+44112002
+44112005
+56101514
+56112301
+60111102
+60121402
+2024-11-20 01:05:40,087 - RAGPipeline - INFO - Metadata: {'acquisition_type': 'NON-IT Goods', 'creation_date': '2014-07-10T00:00:00', 'department': 'Child Support Services, Department of', 'fiscal_year': '2015', 'purchase_order': 'GP130089', 'supplier': 'American Commodities, AWOB', 'total_price': 13.51}
+2024-11-20 01:05:40,088 - RAGPipeline - INFO - 
+Retrieved Document 2:
+2024-11-20 01:05:40,088 - RAGPipeline - INFO - Content: Purchase Order: 17000000000000
+Department: Fair Employment and Housing, Department of
+Supplier: THE PRIMARY SOURCE
+Creation Date: 2015-06-03
+Purchase Date: 2015-02-27
+Fiscal Year: 2015
+Item: Metro Metro Mesh Large Drawer Organizer 2 7/16H x15 1/8Wx11 9/10D Black
+Description: Metro Metro Mesh Large Drawer Organizer 2 7/16H x15 1/8Wx11 9/10D Black
+Quantity: 8.0
+Unit Price: $8.62
+Total Price: $68.96
+Acquisition Type: NON-IT Goods
+Acquisition Method: Fair and Reasonable
+Supplier Qualifications: CA-MB CA-SB
+Classification Codes: 44111502
+2024-11-20 01:05:40,090 - RAGPipeline - INFO - Metadata: {'acquisition_type': 'NON-IT Goods', 'creation_date': '2015-06-03T00:00:00', 'department': 'Fair Employment and Housing, Department of', 'fiscal_year': '2015', 'purchase_order': '17000000000000', 'supplier': 'THE PRIMARY SOURCE', 'total_price': 68.96}
+2024-11-20 01:05:40,090 - RAGPipeline - INFO - Generating answer...
+2024-11-20 01:06:15,210 - RAGPipeline - INFO - Answer: 
+Sure! Here's an overview of the top spenders and their typical purchases:
+
+1. Fair Employment and Housing (FEH): The primary supplier for this department is THE PRIMARY SOURCE, which purchased 485 items valued at $199,999 between May and February. Some notable products include a range of hardware store tools from STIHL, a set of kitchen knives from DESSAU, and an array of electronic cash registers and printers from COMOMAX.
+2. Child Support Services (CSS): The primary supplier for CSS is AWOB, which purchased 743 items valued at $833,878 between March 2016 to July 2017. Some notable products include a range of legal documents from KINDSTEIN and personal checks from JPM.
+3. Fair and Reasonable (FR): The primary supplier for FR is THE PRIMARY SOURCE, which purchased 589 items valued at $629,014 between June 2014 and November 2016. Notable items included electronic and printing equipment from
+2024-11-20 01:06:15,253 - RAGPipeline - INFO - Processing time: 35.38 seconds

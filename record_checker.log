@@ -1,0 +1,15 @@
+2024-11-19 10:21:29,928 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-11-19 10:21:31,361 - INFO - MongoDB record count: 346018
+2024-11-19 10:22:07,022 - INFO - ChromaDB total record count: 189000
+2024-11-19 10:22:07,022 - INFO - Difference in records: 157018
+2024-11-19 10:22:07,022 - WARNING - Record count mismatch detected: MongoDB has 346018 records, ChromaDB has 189000 records
+2024-11-19 12:39:34,470 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-11-19 12:39:46,222 - INFO - MongoDB record count: 346018
+2024-11-19 12:40:44,255 - INFO - ChromaDB total record count: 203000
+2024-11-19 12:40:44,256 - INFO - Difference in records: 143018
+2024-11-19 12:40:44,257 - WARNING - Record count mismatch detected: MongoDB has 346018 records, ChromaDB has 203000 records
+2024-11-19 16:57:10,266 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-11-19 16:57:16,322 - INFO - MongoDB record count: 346018
+2024-11-19 16:58:07,931 - INFO - ChromaDB total record count: 203000
+2024-11-19 16:58:07,931 - INFO - Difference in records: 143018
+2024-11-19 16:58:07,932 - WARNING - Record count mismatch detected: MongoDB has 346018 records, ChromaDB has 203000 records
